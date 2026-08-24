@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIRTUALOTUS CREATE STUDIO · 蜉蝣罗塔丝创作工坊</title>
+<style>
+:root{
+  --bg:#F7F5F1;
+  --bg2:#FBFAF8;
+  --paper:#FFFFFF;
+  --ink:#4A4640;
+  --ink-soft:#8C857C;
+  --line:#E4DDD2;
+  --accent:#B7A6C9;
+  --accent-d:#8E7CA8;
+  --sage:#A9BCAE;
+  --clay:#D8B7A6;
+  --radius:22px;
+  --radius-sm:14px;
+  --font-display:"Songti SC","Noto Serif SC","Source Han Serif SC","PingFang SC",serif;
+  --font-body:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font-body);color:var(--ink);
+  background:
+    radial-gradient(1200px 600px at 78% -8%, #EFE8F 0%, rgba(239,232,242,0) 60%),
+    radial-gradient(1000px 520px at 8% 8%, #E8F0EC 0%, rgba(232,240,236,0) 55%),
+    linear-gradient(180deg, var(--bg2) 0%, var(--bg) 100%);
+  background-attachment:fixed;
+  min-height:100vh;
+  -webkit-font-smoothing:antialiased;
+  display:flex;align-items:center;justify-content:center;
+  padding:40px 20px;
+}
+.wrap{width:100%;max-width:680px;text-align:center}
+.badge{
+  display:inline-block;font-size:12px;letter-spacing:3px;
+  color:var(--ink-soft);border:1px solid var(--line);
+  border-radius:999px;padding:6px 16px;margin-bottom:26px;
+  background:var(--paper);
+}
+.mark{
+  font-family:var(--font-display);
+  font-size:46px;font-weight:600;line-height:1.2;
+  color:var(--ink);margin-bottom:10px;
+}
+.sub{
+  font-size:15px;color:var(--ink-soft);
+  letter-spacing:1px;margin-bottom:28px;
+}
+.card{
+  background:var(--paper);border:1px solid var(--line);
+  border-radius:var(--radius);padding:30px;
+  box-shadow:0 10px 40px rgba(74,70,64,.06);
+}
+.links{display:flex;flex-direction:column;gap:14px;margin-top:8px}
+a.entry{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:16px 20px;border:1px solid var(--line);border-radius:var(--radius-sm);
+  text-decoration:none;color:var(--ink);font-weight:600;font-size:16px;
+  transition:all .3s cubic-bezier(.22,.61,.36,1);
+}
+a.entry:hover{border-color:var(--accent);transform:translateY(-1px);box-shadow:0 6px 18px rgba(74,70,64,.10)}
+a.entry .arrow{color:var(--accent-d);font-size:18px}
+.note{margin-top:22px;font-size:13px;color:var(--ink-soft);line-height:1.7}
+.tag{color:var(--accent-d);font-weight:600}
+footer{margin-top:26px;font-size:12px;color:var(--ink-soft)}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="badge">PRIVATE · 内测仓库</div>
+    <div class="mark">蜉蝣罗塔丝 · 创作工坊</div>
+    <div class="sub">VIRTUALOTUS CREATE STUDIO — 沟通 / 连接 / 桥</div>
+
+    <div class="card">
+      <div class="links">
+        <a class="entry" href="./virtual-lotus-create-studio.html">
+          <span>📖 艺术日记 · 主入口</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="entry" href="./README.md">
+          <span>📄 项目说明 README</span>
+          <span class="arrow">→</span>
+        </a>
+      </div>
+      <p class="note">
+        本仓库为私有（Private）内测项目，内容含品牌源文件与交互原型。
+        如需协作访问，请联系 <span class="tag">LotusLiuXY</span> 授权。
+      </p>
+    </div>
+
+    <footer>© VIRTUALOTUS CREATE STUDIO · 蜉蝣罗塔丝 · 保留所有权利</footer>
+  </div>
+</body>
+</html>
