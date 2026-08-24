@@ -7,18 +7,18 @@
 ## 直达链接
 
 ### 🔌 联机（需登录 GitHub，限受邀成员）
-- 仓库主页：https://github.com/LotusLiuXY/virtual-lotus-create-studio
-- 直接打开页面（文件视图）：https://github.com/LotusLiuXY/virtual-lotus-create-studio/blob/main/virtual-lotus-create-studio.html
+- 仓库主页：https://github.com/LotusLiuXY/virtualotus-create-studio
+- 直接打开页面（文件视图）：https://github.com/LotusLiuXY/virtualotus-create-studio/blob/main/virtualotus-create-studio.html
 
 ### 💾 不联机（本地打开，无需网络）
-- 已克隆 / 下载本仓库后，直接双击同目录下的 `virtual-lotus-create-studio.html` 即可在浏览器打开
-- 或点击本 README 同级的相对链接：[virtual-lotus-create-studio.html](./virtual-lotus-create-studio.html)
+- 已克隆 / 下载本仓库后，直接双击同目录下的 `virtualotus-create-studio.html` 即可在浏览器打开
+- 或点击本 README 同级的相对链接：[virtualotus-create-studio.html](./virtualotus-create-studio.html)
 
 > 该页面为**单文件 HTML**（内联 CSS/JS、零外部依赖），离线完全可用；同一个相对链接在本地查看与在 GitHub 在线查看时均有效。
 
 ## 内容
 
-- `virtual-lotus-create-studio.html` — 单文件网页（牌卡创作 / 艺术日记 / 陪伴画廊 / 社区）
+- `virtualotus-create-studio.html` — 单文件网页（牌卡创作 / 艺术日记 / 陪伴画廊 / 社区）
 
 ## 状态
 
@@ -27,4 +27,4 @@
 
 ## 本地预览
 
-直接用浏览器打开 `virtual-lotus-create-studio.html` 即可，无需服务器、无需联网。
+直接用浏览器打开 `virtualotus-create-studio.html` 即可，无需服务器、无需联网。
